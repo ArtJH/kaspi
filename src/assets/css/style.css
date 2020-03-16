@@ -55,8 +55,8 @@ body{
     flex-direction: column;
 }
 .blue {
-    font-weight: 600;
-    color: #266D7D;
+    font-weight: 700;
+    color: #3D98AC;
 }
 .cart-footer {
     background: #F8F8F8;
@@ -70,6 +70,8 @@ body{
     background: none;
     border: none;
     font-size: 0.9em;
+    position: relative;
+    z-index: 1;
 }
 .product-wrapper {
     display: flex;
@@ -124,7 +126,7 @@ body{
     background: transparent;
 }
 .productFooter-number {
-    color: #066E87;
+    color: #3D98AC;
     padding: 0 1em;
     font-size: 0.9em;
     font-weight: 600;
@@ -168,11 +170,14 @@ body{
 .footer-btn__btn {
     width: 100%;
     border: none;
-    background: #066E87;
+    background: #C4C4C4;
     color: #FFF;
     font-size: 0.95em;
     padding: 0.9em;
     border-radius: 5px;
+}
+.activeBtn{
+    background: #066E87;
 }
 .row-desc-total__p {
     color: #282A29;
